@@ -1,0 +1,989 @@
+{
+	"info": {
+		"_postman_id": "0149c026-9a10-477c-aeba-aaf15c3045df",
+		"name": "sggs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "12516425-0149c026-9a10-477c-aeba-aaf15c3045df"
+	},
+	"item": [
+		{
+			"name": "驻外信息查询",
+			"item": [
+				{
+					"name": "代码类别",
+					"id": "13881969-d4aa-4d3e-837c-6ad06828ab82",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"code_class\": \"SO51\",\r\n    \"code_name\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://111.63.0.186:8013/sgapi01/api/mes/ep/ep0001",
+							"protocol": "http",
+							"host": [
+								"111",
+								"63",
+								"0",
+								"186"
+							],
+							"port": "8013",
+							"path": [
+								"sgapi01",
+								"api",
+								"mes",
+								"ep",
+								"ep0001"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "代码类别 Copy",
+					"id": "eb9158f3-4064-46e4-87c9-cf013a562b7d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"code_class\": \"SO51\",\r\n    \"code_name\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://10.8.2.15:8011/api/mes/ep/ep0001",
+							"protocol": "http",
+							"host": [
+								"10",
+								"8",
+								"2",
+								"15"
+							],
+							"port": "8011",
+							"path": [
+								"api",
+								"mes",
+								"ep",
+								"ep0001"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "代码值集",
+					"id": "3f4668b3-f942-478d-a429-b2b05439c34a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"code_class\": \"SO51\",\r\n    \"code\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://111.63.0.186:8013/sgapi01/api/mes/ep/tep0002",
+							"protocol": "http",
+							"host": [
+								"111",
+								"63",
+								"0",
+								"186"
+							],
+							"port": "8013",
+							"path": [
+								"sgapi01",
+								"api",
+								"mes",
+								"ep",
+								"tep0002"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "代码值集 Copy",
+					"id": "1cb5e44a-d2cb-4036-86a1-822746fc94e2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"code_class\": \"SO51\",\r\n    \"code\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://10.8.2.15:8011/sgapi01/api/mes/ep/tep0002",
+							"protocol": "http",
+							"host": [
+								"10",
+								"8",
+								"2",
+								"15"
+							],
+							"port": "8011",
+							"path": [
+								"sgapi01",
+								"api",
+								"mes",
+								"ep",
+								"tep0002"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "客商区域",
+					"id": "08c90df4-237b-4f6d-9acd-c1464156feb5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"code_class\": \"SO51\",\r\n    \"code\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://111.63.0.186:8013/sgapi01/api/mes/si/tsi0220qy",
+							"protocol": "http",
+							"host": [
+								"111",
+								"63",
+								"0",
+								"186"
+							],
+							"port": "8013",
+							"path": [
+								"sgapi01",
+								"api",
+								"mes",
+								"si",
+								"tsi0220qy"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "客商行业",
+					"id": "4e139186-1f19-4d12-9e6b-7099ee463b30",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"code_class\": \"SO51\",\r\n    \"code\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://111.63.0.186:8013/sgapi01/api/mes/si/tsi0220hy",
+							"protocol": "http",
+							"host": [
+								"111",
+								"63",
+								"0",
+								"186"
+							],
+							"port": "8013",
+							"path": [
+								"sgapi01",
+								"api",
+								"mes",
+								"si",
+								"tsi0220hy"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "客商主营材料",
+					"id": "59adb85d-e975-4ee1-a677-ea15c6c1035a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"code_class\": \"SO51\",\r\n    \"code\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://111.63.0.186:8013/sgapi01/api/mes/si/tsi0220cl",
+							"protocol": "http",
+							"host": [
+								"111",
+								"63",
+								"0",
+								"186"
+							],
+							"port": "8013",
+							"path": [
+								"sgapi01",
+								"api",
+								"mes",
+								"si",
+								"tsi0220cl"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "汇率",
+					"id": "f1a791de-7e8f-4b71-8b21-b531610d495e",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"account_period\": \"202212\",\r\n    \"currency_code\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://111.63.0.186:8013/sgapi01/api/mes/si/tsi0214",
+							"protocol": "http",
+							"host": [
+								"111",
+								"63",
+								"0",
+								"186"
+							],
+							"port": "8013",
+							"path": [
+								"sgapi01",
+								"api",
+								"mes",
+								"si",
+								"tsi0214"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "汇率 Copy",
+					"id": "ad0eaa70-175a-4daa-8ab0-590fe7e16978",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"account_period\": \"202301\",\r\n    \"currency_code\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://10.8.2.15:8011/api/sd/si0214",
+							"protocol": "http",
+							"host": [
+								"10",
+								"8",
+								"2",
+								"15"
+							],
+							"port": "8011",
+							"path": [
+								"api",
+								"sd",
+								"si0214"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "无订单坯",
+					"id": "7903824f-6380-425a-af93-335a69679dad",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://111.63.0.186:8013/sgapi01/api/sd/getinvbstk",
+							"protocol": "http",
+							"host": [
+								"111",
+								"63",
+								"0",
+								"186"
+							],
+							"port": "8013",
+							"path": [
+								"sgapi01",
+								"api",
+								"sd",
+								"getinvbstk"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "待组轧制量",
+					"id": "b64e6dad-ca19-45be-8c6a-52b8581a0b78",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://111.63.0.186:8013/sgapi01/api/sd/getLackRoll",
+							"protocol": "http",
+							"host": [
+								"111",
+								"63",
+								"0",
+								"186"
+							],
+							"port": "8013",
+							"path": [
+								"sgapi01",
+								"api",
+								"sd",
+								"getLackRoll"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "待组浇次",
+					"id": "36df95bf-b29e-433b-899c-19d075ec36d9",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://111.63.0.186:8013/sgapi01/api/sd/getLackCast",
+							"protocol": "http",
+							"host": [
+								"111",
+								"63",
+								"0",
+								"186"
+							],
+							"port": "8013",
+							"path": [
+								"sgapi01",
+								"api",
+								"sd",
+								"getLackCast"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "合同生产进度查询",
+					"id": "d1c8ce16-4061-4918-8e38-79d99143bcfe",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\": \"\",\r\n    \"custRefNo\": \"CQ22-12-02\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://111.63.0.186:8013/sgapi01/api/sd/getProductionStatus",
+							"protocol": "http",
+							"host": [
+								"111",
+								"63",
+								"0",
+								"186"
+							],
+							"port": "8013",
+							"path": [
+								"sgapi01",
+								"api",
+								"sd",
+								"getProductionStatus"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "工序查询",
+					"id": "52d7f927-e2b3-442d-97d6-26553cc88320",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"offline_time_s\": \"20221126000000\",\r\n    \"offline_time_e\": \"20221231235959\",\r\n    \"dept_name\": \"\",\r\n    \"unit_name\": \"天津\",\r\n    \"heat_no\": \"\",\r\n    \"roll_plan_no\": \"\",\r\n    \"sale_order_sub_no\": \"\",\r\n    \"cust_ref_no\": \"\",\r\n    \"ord_cust_code\": \"\",\r\n    \"sg_sign\": \"\",\r\n    \"sg_std\": \"\",\r\n    \"user_cnname\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://111.63.0.186:8013/sgapi01/api/sd/socx33",
+							"protocol": "http",
+							"host": [
+								"111",
+								"63",
+								"0",
+								"186"
+							],
+							"port": "8013",
+							"path": [
+								"sgapi01",
+								"api",
+								"sd",
+								"socx33"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "结算查询",
+					"id": "2d4bca9d-1707-4690-b7b0-c08cdb46297a",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"throw_date_s\": \"20221126000000\",\r\n    \"throw_date_e\": \"20221231235959\",\r\n    \"dept_name\": \"\",\r\n    \"unit_name\": \"天津\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://111.63.0.186:8013/sgapi01/api/sd/socx12zw",
+							"protocol": "http",
+							"host": [
+								"111",
+								"63",
+								"0",
+								"186"
+							],
+							"port": "8013",
+							"path": [
+								"sgapi01",
+								"api",
+								"sd",
+								"socx12zw"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "预计划查询",
+					"id": "18fae3be-44d5-4c39-9362-df4c9a65a5d8",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"dept_name\": \"\",\r\n    \"unit_name\": \"重庆\",\r\n    \"plan_backlog\": \"线材\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://111.63.0.186:8013/sgapi01/api/sd/psbwa1",
+							"protocol": "http",
+							"host": [
+								"111",
+								"63",
+								"0",
+								"186"
+							],
+							"port": "8013",
+							"path": [
+								"sgapi01",
+								"api",
+								"sd",
+								"psbwa1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "资源查询",
+					"id": "b3aa254e-e7c5-4f58-809e-0f940927ebfa",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"sa02av20_approve_time_s\": \"20221126000000\",\r\n    \"sa02av20_approve_time_e\": \"20221231235959\",\r\n    \"unit_name\": \"天津\",\r\n    \"prod_line_name\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://111.63.0.186:8013/sgapi01/api/sd/sosa31",
+							"protocol": "http",
+							"host": [
+								"111",
+								"63",
+								"0",
+								"186"
+							],
+							"port": "8013",
+							"path": [
+								"sgapi01",
+								"api",
+								"sd",
+								"sosa31"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "销售指导价",
+					"id": "c4b87f73-3efc-4158-8d3a-4fc988c83aef",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://111.63.0.186:8013/sgapi01/api/sd/sosp10",
+							"protocol": "http",
+							"host": [
+								"111",
+								"63",
+								"0",
+								"186"
+							],
+							"port": "8013",
+							"path": [
+								"sgapi01",
+								"api",
+								"sd",
+								"sosp10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "销售指导价 Copy",
+					"id": "7e7e2811-469e-42c1-8716-4c95636083fd",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://10.8.2.15:8011/api/sd/sosp10",
+							"protocol": "http",
+							"host": [
+								"10",
+								"8",
+								"2",
+								"15"
+							],
+							"port": "8011",
+							"path": [
+								"api",
+								"sd",
+								"sosp10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DI 值",
+					"id": "e447005b-1b9b-483a-8849-846ce0fe7e72",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"type\": \"D1\",\r\n    \"chemicalElements\": {\r\n        \"C\": 0.4,\r\n        \"Mn\": 1.6,\r\n        \"Si\": 0.24,\r\n        \"Cr\": 0.14,\r\n        \"Ni\": 0.02,\r\n        \"Mo\": 0.001\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://111.63.0.186:8013/sgapi01/api/qm/di",
+							"protocol": "http",
+							"host": [
+								"111",
+								"63",
+								"0",
+								"186"
+							],
+							"port": "8013",
+							"path": [
+								"sgapi01",
+								"api",
+								"qm",
+								"di"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "e8915d50-8bc8-47b6-814e-c969a3526c53"
+		},
+		{
+			"name": "EMS",
+			"item": [
+				{
+					"name": "getEnergyCost",
+					"id": "6e415ff1-6b0d-48dc-a9be-ec37036981c2",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://10.8.2.62:8017/energy_project/api/getEnergyCost",
+							"protocol": "http",
+							"host": [
+								"10",
+								"8",
+								"2",
+								"62"
+							],
+							"port": "8017",
+							"path": [
+								"energy_project",
+								"api",
+								"getEnergyCost"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getEnergyData",
+					"id": "43249906-99da-4afe-873d-f4a52fcf82bb",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"erdate\":\"2022-07-30\",\n\t\"erhour\":2,\n\t\"ratecycle\":\"H\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://10.8.2.62:8017/energy_project/api/getEnergyData",
+							"protocol": "http",
+							"host": [
+								"10",
+								"8",
+								"2",
+								"62"
+							],
+							"port": "8017",
+							"path": [
+								"energy_project",
+								"api",
+								"getEnergyData"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getEnergySyn",
+					"id": "7f2808d8-33cf-44a8-bc1c-e1bdef7b162d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"erdate\":\"2022-07-29\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://10.8.2.62:8017/energy_project/api/getEnergySyn",
+							"protocol": "http",
+							"host": [
+								"10",
+								"8",
+								"2",
+								"62"
+							],
+							"port": "8017",
+							"path": [
+								"energy_project",
+								"api",
+								"getEnergySyn"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getEnergyCostByESB",
+					"id": "469db7a1-c141-46f5-b655-0042d224bc6c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"erdate\":\"2022-05-06\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://10.8.2.15:8011/energy_project/api/getEnergyCost",
+							"protocol": "http",
+							"host": [
+								"10",
+								"8",
+								"2",
+								"15"
+							],
+							"port": "8011",
+							"path": [
+								"energy_project",
+								"api",
+								"getEnergyCost"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "5466398b-a3fe-4a1a-a96e-e765b819574e"
+		},
+		{
+			"name": "ESB",
+			"item": [
+				{
+					"name": "http://10.8.2.250/sgboe/doc/AXkv5dSv789JkKfZNur280E",
+					"id": "0260f41e-bc77-4ad4-8527-cf5d5da3a576",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://10.8.2.250/sgboe/doc/AXkv5dSv789JkKfZNur280E",
+							"protocol": "http",
+							"host": [
+								"10",
+								"8",
+								"2",
+								"250"
+							],
+							"path": [
+								"sgboe",
+								"doc",
+								"AXkv5dSv789JkKfZNur280E"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "97d25da9-386d-44a8-bfce-b4b9a8481cd8"
+		},
+		{
+			"name": "MES",
+			"item": [
+				{
+					"name": "http://10.8.8.28/api/so/psc/query",
+					"id": "dd0ecfc7-2271-4443-9bca-29b7e44e3b1d",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[{\"SG_SIGN\":\"40Cr\"}]"
+						},
+						"url": {
+							"raw": "http://10.8.8.28/api/so/psc/query",
+							"protocol": "http",
+							"host": [
+								"10",
+								"8",
+								"8",
+								"28"
+							],
+							"path": [
+								"api",
+								"so",
+								"psc",
+								"query"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://10.8.8.28/api/ef/codeClassValue/SOD1",
+					"id": "d93feffb-dfde-4e52-9736-97fdbaec6a2c",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://10.8.8.28/api/ef/codeClassValue/SOD1",
+							"protocol": "http",
+							"host": [
+								"10",
+								"8",
+								"8",
+								"28"
+							],
+							"path": [
+								"api",
+								"ef",
+								"codeClassValue",
+								"SOD1"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "56409c4f-f3c5-4649-b51a-ded72e759e52"
+		}
+	]
+}
